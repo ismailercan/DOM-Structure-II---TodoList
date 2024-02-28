@@ -1,0 +1,35 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.container{
+    max-width: 400px;
+    border: 1px solid gray;
+    align-items: center;
+    margin: 20px auto;
+    padding: 10px;
+}
+
+li{
+    margin: 8px;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    display: flex;
+    justify-content: space-between;
+}
+
+button{
+    background-color: red;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 5px 10px;
+    cursor: pointer;
+}
+
+input{
+    width: 70%;
+    padding: 8px;
+    margin: 5px 0;
+}
